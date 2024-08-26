@@ -4,3 +4,8 @@
 
 # 1. Proxy server with cache
 - In this code we, are going to write C code for a web server along with implementation of an LRU cache from scratch using a Linked List appraoch and a time based eviction strategy.
+
+Components:
+1. cache_element - an object corresponding to an entry in the cache
+2. tid[] - an array of threads for each client
+3. semaphore and mutex
